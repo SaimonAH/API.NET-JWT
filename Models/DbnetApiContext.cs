@@ -27,7 +27,7 @@ public partial class DbnetApiContext : DbContext
     {
         modelBuilder.Entity<Producto>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK__Producto__5B65BF975FFCE2CE");
+            entity.HasKey(e => e.IdProducto).HasName("PK__Producto__5B65BF975FFCE2CE");
 
             entity.ToTable("Producto");
 

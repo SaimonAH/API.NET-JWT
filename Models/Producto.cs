@@ -5,7 +5,7 @@ namespace WebAPI.Models;
 
 public partial class Producto
 {
-    public int IdUsuario { get; set; }
+    public int IdProducto { get; set; }
 
     public string? Nombre { get; set; }
 
